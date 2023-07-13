@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro projeto em HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>
+            Olá mundo
+        </h1>
+        <hr>
+        <h2>
+            Este é o meu primeiro documento em HTML!
+        </h2>
+        <h3>
+            Quebra de textos, paragráfos e emojis.
+        </h3>
+        <p>
+            Irei utilizar uma tag de quebra de texto 'br' <br>e ele ficará desta forma.
+        </p>
+        <p>
+            Agora vamos adicionar alguns emojis: &#x1F62C; &#x1F389; &#x1F38A; <br>
+            para isso utilizei o '&#x' e o código do emoji, colocando o ';' no final.
+        </p>
+        <h3>
+            Imagens
+        </h3>
+        <p>
+            Para adicionar imagens utilizar o 'img': <br>
+            <img src="foto-exemplo.jpg" alt="imagem de teste">
+        </p>
+        <h3>
+            Marcações de texto
+        </h3>
+        <p>
+            Testarei algumas marcações em <strong>negrito</strong> e <em>italico</em>. Também o texto <mark>marcado</mark>! Para isso utilizei as tags 'strong' 'em' e 'mark'.
+        </p>
+        <h3>
+            Textos deletados e sublinhados
+        </h3>
+        <p>
+            Um exemplo de <del>texto deletado</del> e um <ins>texto inserido</ins> utilizando o 'del' e o 'ins'.
+        </p>
+        <h3>
+            Subir ou descer caracteres
+        </h3>
+        <p>
+            Utilizar o 'sup' para elevar caracteres: x <sup>2</sup>+3 <br>e o 'sub' para descer caracteres: H <sub>2</sub>O
+        </p>
+        <h3>
+            Código fonte/Pré-formatação
+        </h3>
+        <p>
+            Utilizaremos esse tipo de formatação para escrever códigos e/ou calculos que facilitem a leitura. Para isso Utilizaremos o 'code' que é uma formatação JavaScript:
+        </p>
+        <code>
+            nome=input("qual é o seu nome?") <br>
+            idade=input("quantos anos você tem?")
+        </code>
+        <p>
+            Para formatações onde a quebra de linha e as indetações sejam consideradas, utilizaremos o 'pre' antes do 'code':
+        </p>
+        <pre>
+            <code>
+            nome=input("qual é o seu nome?")
+            idade=input("quantos anos você tem?")
+            print=("seja bem vindo {}!" .format(nome))
+            print=("fim do programa")
+            </code>
+        </pre>
+        <h3>
+            Citações simples e completas
+        </h3>
+        <p>
+            Para citações simples utilizamos a tag 'q': <q>O computador é um burro muito rápido.</q>
+        </p>
+        <p>
+            Para citações completas utilizamos o 'blockquote' que não precisa estar em um parágrafo.
+        </p>
+        <blockquote>
+            Se trabalhar no pesado desse dinheiro o jumento estaria milionário!
+        </blockquote>
+        <h3>
+            Abreviações
+        </h3>
+        <p>
+            Utilizaremos a tag 'abbr title' para abreviações: Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.
+        </p>
+        <h3>
+            Listas ordenadas e não ordenadas
+        </h3>
+        <p>
+            Para listas ordenadas utilizar 'ol' e para não ordenadas utilizar 'ul', colocando 'li' para os itens da lista:
+        </p>
+        <ol>
+            <li>Brasil</li>
+                <ul>
+                    <li>Pernambuco</li>
+                    <li>Rio de Janeiro</li>
+                    <li>São Paulo</li>
+                    <li>Bahia</li>
+                </ul>
+            <li>United States</li>
+                <ul>
+                    <li>California</li>
+                    <li>Texas</li>
+                    <li>New York</li>
+                    <li>Florida</li>
+                </ul>
+        </ol>
+        <h3>
+            Links e Âncoras
+        </h3>
+        <p>
+            Para utilizar links externos utilizar a tag 'a': <a href="https://github.com/victorhrolim" target="_blank">link do meu github</a> por exemplo.
+        </p>
+        <h3>
+            Audio
+        </h3>
+        <p>
+            Para utilizar audios usamos a tag 'audio':
+        </p>
+        <audio src="audio-teste.mp3" controls></audio>
+    </main>
+</body>
+</html>
