@@ -7,23 +7,36 @@
 
     <style>
         body {
+            /*
             height: 100vh;
             background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
+            background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+        /* Shorthand - 
+        background: color>image>repeat>attachment>position>/>size */
+
+            background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center/ cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
             
         }
+
+        /* background-attachment: scroll;
+        a imagem de background se move junto com o conteúdo
+        background-attachment: fixed;
+        a imagem fica fixada enquanto somente o conteúdo se move */
 
         /* background-size: cover;
         utiliza a imagem em 100% da tela
@@ -39,6 +52,9 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab explicabo dolorum ut fuga suscipit rerum debitis quaerat accusamus. Neque dolore iure iusto expedita amet ratione. Accusamus architecto ipsa explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus nihil incidunt aut quo! Eos assumenda amet laboriosam voluptatibus, odio reprehenderit quasi dolorum vero modi, impedit illum, dolorem nemo aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique omnis ea ipsum. Incidunt, autem veritatis pariatur dolorem eaque fuga nisi? Corrupti doloremque sed itaque doloribus illum voluptates laborum molestiae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab explicabo dolorum ut fuga suscipit rerum debitis quaerat accusamus. Neque dolore iure iusto expedita amet ratione. Accusamus architecto ipsa explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus nihil incidunt aut quo! Eos assumenda amet laboriosam voluptatibus, odio reprehenderit quasi dolorum vero modi, impedit illum, dolorem nemo aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique omnis ea ipsum. Incidunt, autem veritatis pariatur dolorem eaque fuga nisi? Corrupti doloremque sed itaque doloribus illum voluptates laborum molestiae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab explicabo dolorum ut fuga suscipit rerum debitis quaerat accusamus. Neque dolore iure iusto expedita amet ratione. Accusamus architecto ipsa explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus nihil incidunt aut quo! Eos assumenda amet laboriosam voluptatibus, odio reprehenderit quasi dolorum vero modi, impedit illum, dolorem nemo aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique omnis ea ipsum. Incidunt, autem veritatis pariatur dolorem eaque fuga nisi? Corrupti doloremque sed itaque doloribus illum voluptates laborum molestiae?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab explicabo dolorum ut fuga suscipit rerum debitis quaerat accusamus. Neque dolore iure iusto expedita amet ratione. Accusamus architecto ipsa explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus nihil incidunt aut quo! Eos assumenda amet laboriosam voluptatibus, odio reprehenderit quasi dolorum vero modi, impedit illum, dolorem nemo aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique omnis ea ipsum. Incidunt, autem veritatis pariatur dolorem eaque fuga nisi? Corrupti doloremque sed itaque doloribus illum voluptates laborum molestiae?</p>
     </main>
 </body>
