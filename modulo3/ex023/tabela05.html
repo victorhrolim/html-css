@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 26rem;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: 0.5rem;
+        }
+
+        th, td {
+            border: 0.1rem solid black;
+            padding: 0.6rem;
+        }
+
+        col.cnome {
+            background-color: lime;
+        }
+
+        col.csexo {
+            background-color: yellow;
+        }
+
+        col.cidade {
+            background-color: white;
+        }
+
+        col.cprof {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalismo</td>
+        </tr>
+        <tr>
+            <td>Julia</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Ator</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Militar</td>
+        </tr>
+        <tr>
+            <td>Claudia</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Empresária</td>
+        </tr>
+    </table>
+</body>
+</html>
